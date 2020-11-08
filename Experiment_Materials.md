@@ -25,3 +25,4 @@ First perform the following tasks using git commands and then perform them using
 - Sync the local and remote main branch i.e. pull the remote main branch in rebase mode and then again push the branch so that both the local and remote branches will be synced up.
 - Create a new file `trial3.txt` on github main branch manually by going to the repo online.
 - Create a local branch `experiment` which has all the changes in the remote main branch.
+- You find out that you have corrupted the local repository by doing many changes. Now you want to do a fresh start by completely deleting the repository and cloning it once again.

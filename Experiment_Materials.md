@@ -16,13 +16,26 @@ If you have MacOS or Linux follow the steps below to setup gits. If you own a wi
 
 ## Experimentation
 
-You will be given a set of tasks which you will be performing on a dummy public repository using both GITS and git commands. You can refer to documentation in the GITS repository whenever you want. For that, first clone the dummy repo using the command ` git clone https://github.com/Shahil98/SE_Phase3.git `.
+You will be given a set of tasks which you will be performing on a dummy public repositories using both GITS and git commands.  For that, first clone the dummy repositories using the commands ` git clone https://github.com/Shahil98/SE_GITS.git ` and ` git clone https://github.com/Shahil98/SE_GIT.git `. You can refer to documentation in the GITS repository whenever you want.
 
 First perform the following tasks using git commands and then perform them using gits.
-- Change the global username and email to `user123` and `shahilushah@gmail.com`.
-- Create a new file `trial.txt` on github main branch manually by going to the repo online.
-- Create a new file `trial2.txt` locally.
-- Sync the local and remote main branch i.e. pull the remote main branch in rebase mode and then again push the branch so that both the local and remote branches will be synced up.
-- Create a new file `trial3.txt` on github main branch manually by going to the repo online.
-- Create a local branch `experiment` which has all the changes in the remote main branch.
-- You find out that you have corrupted the local repository by doing many changes. Now you want to do a fresh start by completely deleting the repository and cloning it once again.
+   - Change the global username and email to `user123` and `shahilushah@gmail.com`.
+   - Create a new file `trial.txt` on github main branch manually by going to the repo online.
+   - Create a new file `trial2.txt` locally.
+   - Sync the local and remote main branch i.e. pull the remote main branch in rebase mode and then again push the branch so that both the local and remote branches will be synced up.
+   - Create a new file `trial3.txt` on github main branch manually by going to the repo online.
+   - Create a local branch `experiment` which has all the changes in the remote main branch.
+   - You find out that you have corrupted the local repository by doing many changes. Now you want to do a fresh start by completely deleting the repository and cloning it once again.
+
+Please fill a short surveymonkey form
+
+## Method of ranking between GITS and git 
+
+For any type of analysis to happen we have to first collect data!
+
+While participants are completing the task, we will gather the following data points:
+   - Total time took to complete the task.
+   - Number of times the documentation was referrred during the task.
+   - Total number of commands typed to perform the task.
+
+Based on the data collected we will perform statistical analysis to decide if GITS is an improvement and reduces overhead over pure git.

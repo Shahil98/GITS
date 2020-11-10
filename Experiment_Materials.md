@@ -20,11 +20,11 @@ You will be given a set of tasks which you will be performing on a dummy public 
 
 First perform the following tasks using git commands and then perform them using gits.
    - Change the global username and email to `user123` and `shahilushah@gmail.com`.
+   - Create a new local branch `feature` and add a file `feature.txt`.
    - Create a new file `trial.txt` on github main branch manually by going to the repo online.
-   - Create a new file `trial2.txt` locally.
-   - Sync the local and remote main branch i.e. pull the remote main branch in rebase mode and then again push the branch so that both the local and remote branches will be synced up.
-   - Create a new file `trial3.txt` on github main branch manually by going to the repo online.
-   - Create a local branch `experiment` which has all the changes in the remote main branch.
+   - We want to now make sure that we have all the changes in the local main and local feature branch i.e. we are synced up with the remote main. So pull all the changes to the local main branch and then rebase the feature branch with the master branch. 
+   - Create a new file `trial2.txt` on github main branch manually by going to the repo online.
+   - Create a local branch `experiment` such that all the changes in remote main branch are reflected in both local main and experiment branch.
    - You find out that you have corrupted the local repository by doing many changes. Now you want to do a fresh start by completely deleting the repository and cloning it once again.
 
 Please fill a short surveymonkey form

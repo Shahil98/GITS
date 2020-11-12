@@ -9,7 +9,7 @@
 
 1. git pull origin branch_name : Pulls all commits from the remote branch
 2. git push origin branch_name : Pushes all commits from current branch to the remote branch
-3. git --rebase branch_name : Rebases current branch with the branch branch_name
+3. git rebase branch_name : Rebases current branch with the branch branch_name
 4. git config --global user.name FIRST_NAME : CHanges global username to the name provided
 5. git config --global user.email abc@gmail.com
 6. git clone url : clones the repository specified by the url

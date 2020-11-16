@@ -1,6 +1,6 @@
 # Methods
 
-We had a series of tasks to be completed by the participant using both GITS and GIT. The tasks were designed such that the participants had to use the major workflows that were provided in GITS. To have an even ground we first showed each participant the commands for GITS and also the commands for GIT that they can use to perform the tasks. Also, the tasks were kept the same for both GITS and GIT so that the data obtained for GITS and GIT can be compared. The tasks are listed here: ![tasks](https://github.com/Shahil98/GITS/blob/master/Experiment_Materials.md).
+We had a series of tasks to be completed by the participant using both GITS and GIT. The tasks were designed such that the participants had to use the major workflows that were provided in GITS. To have an even ground we first showed each participant the commands for GITS and also the commands for GIT that they can use to perform the tasks. Also, the tasks were kept the same for both GITS and GIT so that the data obtained for GITS and GIT can be compared. The tasks are listed here: [tasks](https://github.com/Shahil98/GITS/blob/master/Experiment_Materials.md).
 
 We want to see whether GITS can improve the time it takes to perform a series of tasks that are encountered usually, over just using pure GIT. 
 

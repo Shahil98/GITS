@@ -54,11 +54,17 @@ We see that among the GITS commands use, GITS sync came out the most useful amon
 
 We see that about 70% of the participants scored it atleast a 4 which means that there is a huge potential in GITS atleast for the workflows that GITS has implemented over GIT. 
 
+### Comparitive boxplot for the number of commands used to perform the task using GITS and GIT
+
+![Comparitive Box Plot](https://github.com/Shahil98/GITS/blob/master/Plots/Commands.jpeg)
+
+From the comparitive box plot we can see very less overlapping between GITS and GIT data distributions and the medians are very different.
+
 ### Comparitive boxplot for the time taken between GITS and GIT to perform the series of tasks
 
 ![Comparitive Box Plot](https://github.com/Shahil98/GITS/blob/master/Plots/Comparitive%20Boxplots.jpeg)
 
-From the comparitive box plot we can see that the time taken using GIT comands show a highly left skewed distribution while that using GITS commands is slighly left skewed. Also, there is very less overlaping between the GITS and GIT Box Plots which suggests that there might be a significant difference between the distributions from which the samples of GITS and GIT originate.
+From the comparitive box plot we can see that the time taken using GIT comands show a highly left skewed distribution while that using GITS commands is slighly left skewed. Also, there is very less overlaping between the GITS and GIT Box Plots and the medians are very different which suggests that there might be a significant difference between the distributions from which the samples of GITS and GIT originate.
 
 ### Testing for difference in time taken between GITS and GIT using various statistical tests
 
@@ -83,6 +89,7 @@ The R code for these tests is listed here: [stats.R](https://github.com/Shahil98
 # Conclusions
 - GITS reduces the time significantly over using GIT in performing workflows that we usually encounter as seen by performing a Kruskal-Wallis non-parametric test and a t-test.
 - Among the GITS commands used, GITS sync came out to be the most useful command. 
+- The number of commands to perform a series of tasks using GITS is much less than that using normal GIT.
 # Threats to validity
 The above conclusions are subject to the validity of the experiments that we conducted. Some of the threats to validity that we found are:  
 - Insufficient data points, since we could only conduct experiment with 10 different participants it would be more beneficial if we could have collected atleast 40 data points.

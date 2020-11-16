@@ -52,7 +52,7 @@ We see that among the GITS commands use, GITS sync came out the most useful amon
 ### Participants rank how simple GITS is as comapred to GIT on a scale of 0 to 5 
 ![How simplified did you find GITS as compared to GIT](https://raw.githubusercontent.com/Shahil98/GITS/master/Plots/How%20simplified%20did%20you%20find%20GITS%20as%20compared%20to%20GIT.png)
 
-We see that about 70% of the participants scored it atleast a 4 which means that there is a huge potential in GITS atleast for the workflows that GITS has implemented over GIT. 
+We see that 70% of the participants scored it atleast a 4 which means that there is a huge potential in GITS atleast for the workflows that GITS has implemented over GIT. 
 
 ### Comparitive boxplot for the number of commands used to perform the task using GITS and GIT
 

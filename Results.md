@@ -1,8 +1,8 @@
 # Methods
 
-We had a series of tasks to be completed by the participant using both GITS and GIT. To have an even ground we first showed each participant the commands for GITS and also the commands for GIT that they can use to perform the tasks. Also, the tasks were kept the same for both GITS and GIT so that the data obtained for GITS and GIT can be compared. The tasks are listed here: .
+We had a series of tasks to be completed by the participant using both GITS and GIT. The tasks were designed such that the participants had to use the major workflows that were provided in GITS. To have an even ground we first showed each participant the commands for GITS and also the commands for GIT that they can use to perform the tasks. Also, the tasks were kept the same for both GITS and GIT so that the data obtained for GITS and GIT can be compared. The tasks are listed here: ![tasks](https://github.com/Shahil98/GITS/blob/master/Experiment_Materials.md).
 
-We want to see whether GITS can improve the time it takes to perform a series of tasks that are encountered usually over just using pure GIT.
+We want to see whether GITS can improve the time it takes to perform a series of tasks that are encountered usually, over just using pure GIT. 
 
 To perform any type of analysis we need data!
 
@@ -16,7 +16,6 @@ The data points collected by the team during thr experiment for both GITS and gi
 The data points collected using a surveymonkey form are:
 
 - Familiarity with GIT
-- How hard were the tasks
 - Which GITS command was the most useful
 - Rank from 0 to 5 for how simplified GITS was as compared to GIT.
 - Feedback about GITS from participants
@@ -62,9 +61,11 @@ We see that about 70% of the participants scored it atleast a 4 which means that
 
 From the comparitive box plot we can see that the time taken using GIT comands show a highly left skewed distribution while that using GITS commands is slighly left skewed. Also, there is very less overlaping between the GITS and GIT Box Plots which suggests that there might be a significant difference between the distributions from which the samples of GITS and GIT originate.
 
-### Testing for difference in time taken between GITS and GIT
+### Testing for difference in time taken between GITS and GIT using various statistical tests
 
-We want to test that the time taken if git commands are used is significantly more than the time taken if GITS commands are used for the given set of tasks. Let &mu;<sub>GIT</sub> denote the population mean time for GIT to perform the tasks and &mu;<sub>GITS</sub> denote the population mean time for GITS to perform the tasks by the participants. Let us consider a null hypothesis H<sub>0</sub>: &mu;<sub>GIT</sub> - &mu;<sub>GITS</sub> = 0. We want to test the alternative hypothesis H<sub>a</sub>: &mu;<sub>GIT</sub> - &mu;<sub>GITS</sub> > 0.
+We want to test that the time taken if git commands are used, is significantly more than the time taken if GITS commands are used for the given set of tasks. Let &mu;<sub>GIT</sub> denote the population mean time for GIT to perform the tasks and &mu;<sub>GITS</sub> denote the population mean time for GITS to perform the tasks by the participants. 
+
+Let us consider a null hypothesis H<sub>0</sub>: &mu;<sub>GIT</sub> - &mu;<sub>GITS</sub> = 0. We want to test the alternative hypothesis H<sub>a</sub>: &mu;<sub>GIT</sub> - &mu;<sub>GITS</sub> > 0.
 
 A QQ plot for the data of difference in git and GITS time is:
 
@@ -78,9 +79,11 @@ So using a t-test we can conclude that using GITS significantly reduces the time
 
 We can also consider a Kruskal-Wallis non parametric test which does not assume the normality of the data. Using a Kruskal-Wallis non parametric test we get a p-value of 0.0034. So we have enough evidence at significance level 0.05 that the samples did not originate from the same distribution.
 
-# Conclusions
-- Among the gits commands, gits sync is the most useful commands for gits. 
+The R code for these tests is listed here:  
 
+# Conclusions
+- GITS reduces the time significantly over using GIT in performing workflows that we usually encounter as seen by performing a t-test and a Kruskal-Wallis non-parametric test.
+- Among the GITS commands used, GITS sync came out to be the most useful command. 
 # Threats to validity
 The above conclusions are subject to the validity of the experiments that we conducted. Some of the threats to validity that we found are:  
 - Insufficient data points, since we could only conduct experiment with 10 different participants. We think this would not have been sufficient to draw reliable and trusty conclusions. Next time, we can increase the size of data points helping us draw reliable conclusion.

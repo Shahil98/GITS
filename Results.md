@@ -41,11 +41,25 @@ We used GITS as a candidate to improve over GIT.
 
 # Observations
 
+### Plot to describe the familiarity with git
+![Familiarity with git](https://raw.githubusercontent.com/Shahil98/GITS/master/Plots/Familiarity%20with%20git.png)
+
+### Plot to describe the hardness of the task
+![Hardness of the task](https://raw.githubusercontent.com/Shahil98/GITS/master/Plots/hardness%20of%20the%20task.png)
+
+### Plot to describe which GITS command made life the most simple
+![Which GITS command made life the most simple](https://raw.githubusercontent.com/Shahil98/GITS/master/Plots/Which%20GITS%20command%20is%20more%20useful.png)
+
+### Plot to describe how simplified did you find GITS as compared to GIT
+![How simplified did you find GITS as compared to GIT](https://raw.githubusercontent.com/Shahil98/GITS/master/Plots/How%20simplified%20did%20you%20find%20GITS%20as%20compared%20to%20GIT.png)
+
 ### Comparitive boxplot for the time taken between GITS and GIT to perform the series of tasks
 
 ![Comparitive Box Plot](https://github.com/Shahil98/GITS/blob/master/Plots/Comparitive%20Boxplots.jpeg)
 
 From the comparitive box plot we can see that the time taken using GIT comands show a highly left skewed distribution while that using GITS commands is slighly left skewed. Also, there is very less overlaping between the GITS and GIT Box Plots which suggests that there might be a significant difference between the distributions from which the samples of GITS and GIT originate.
+
+
 
 ### Testing for difference in time taken between GITS and GIT
 

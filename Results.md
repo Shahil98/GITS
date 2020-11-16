@@ -43,13 +43,17 @@ We used GITS as a candidate to improve over GIT.
 
 ### Comparitive boxplot for the time taken between GITS and GIT to perform the series of tasks
 
-![Plot of languages known by participants](https://github.com/Zhuolin0212/GOL_Group_10/blob/master/Plots/Languages_Known.JPG)
+![Comparitive Box Plot](https://github.com/Shahil98/GITS/blob/master/Plots/Comparitive%20Boxplots.jpeg)
+
+From the comparitive box plot we can see that the time taken using GIT comands show a highly left skewed distribution while that using GITS commands is slighly left skewed. Also, there is very less overlaping between the GITS and GIT Box Plots which suggests that there might be a significant difference between the distributions from which the samples of GITS and GIT originate.
 
 ### Testing for difference in time taken between GITS and GIT
 
 We want to test that the time taken if git commands are used is significantly more than the time taken if GITS commands are used for the given set of tasks. Let &mu;<sub>GIT</sub> denote the population mean time for GIT to perform the tasks and &mu;<sub>GITS</sub> denote the population mean time for GITS to perform the tasks by the participants. Let us consider a null hypothesis H<sub>0</sub>: &mu;<sub>GIT</sub> - &mu;<sub>GITS</sub> = 0. We want to test the alternative hypothesis H<sub>a</sub>: &mu;<sub>GIT</sub> - &mu;<sub>GITS</sub> > 0.
 
 A QQ plot for the data of difference in git and GITS time is:
+
+![QQ Plot](https://github.com/Shahil98/GITS/blob/master/Plots/QQPlot.jpeg)
 
 We can see that almost all points follow the line except one extreme point and so we can consider that the data is normal.
 

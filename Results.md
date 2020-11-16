@@ -93,3 +93,4 @@ The R code for these tests is listed here: [stats.R](https://github.com/Shahil98
 # Threats to validity
 The above conclusions are subject to the validity of the experiments that we conducted. Some of the threats to validity that we found are:  
 - Insufficient data points, since we could only conduct experiment with 10 different participants it would be more beneficial if we could have collected atleast 40 data points.
+- We have only tested for the workflows that were present in GITS. To make these results generalizable we might have to do a more rigorous testing with every workflow possible.

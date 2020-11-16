@@ -78,5 +78,8 @@ So using a t-test we can conclude that using GITS significantly reduces the time
 We can also consider a Kruskal-Wallis non parametric test which does not assume the normality of the data. Using a Kruskal-Wallis non parametric test we get a p-value of 0.0034. So we have enough evidence at significance level 0.05 that the samples did not originate from the same distribution.
 
 # Conclusions
+- Among the gits commands, gits sync is the most useful commands for gits. 
 
 # Threats to validity
+The above conclusions are subject to the validity of the experiments that we conducted. Some of the threats to validity that we found are:  
+- Insufficient data points, since we could only conduct experiment with 10 different participants. We think this would not have been sufficient to draw reliable and trusty conclusions. Next time, we can increase the size of data points helping us draw reliable conclusion.
